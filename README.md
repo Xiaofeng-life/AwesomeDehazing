@@ -411,7 +411,7 @@ Here are the commonly used datasets for dehazing task.
 
 * D-HAZY: A dataset to evaluate quantitatively dehazing algorithms.
 \[[paper](https://ieeexplore.ieee.org/abstract/document/7532754)\]
-\[[code](http://cs.nyu.edu/∼silberman/datasets/nyu depth v2.html)\]
+\[[code](http://cs.nyu.edu/∼silberman/datasets/nyu_depth_v2.html)\]
 
 * HazeRD: An outdoor scene dataset and benchmark for single image dehazing.
 \[[paper](https://ieeexplore.ieee.org/abstract/document/8296874)\]
