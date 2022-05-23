@@ -3,7 +3,7 @@
 This repository provides a summary of deep learning based dehazing algorithms. 
 Our classification is based on the review paper "A Comprehensive Survey and Taxonomy on Image Dehazing Based on Deep Learning".
 Since this repository involves a lot of professional vocabulary, it is recommended to read our review paper before using this repository.
-If you find these codes useful, we appreciate it very much if you can cite our paper{https://arxiv.org/abs/2106.03323}.
+If you find these codes useful, we appreciate it very much if you can cite our paper: https://arxiv.org/abs/2106.03323 .
 
 We classify dehazing algorithms into supervised, semi-supervised and unsupervised. 
 See our paper for more details.
