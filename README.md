@@ -10,7 +10,69 @@ We classify dehazing algorithms into supervised, semi-supervised and unsupervise
 See our paper for more details.
 If you have any suggestions, feel free to contact me (Email: cxf_svip@163.com). Thanks.
 
+[Supervised Dehazing Methods](#supervised)
+
+ * [1. Learning of t(x)](#s-1)
+
+ * [2. Joint Learning of t(x) and A](#s-2)
+
+ * [3. Non-explicitly embedded ASM](#s-3)
+
+ * [4. Generative adversarial network](#s-4)
+
+ * [5. Level-aware](#s-5)
+
+ * [6. Multi-function fusion](#s-6)
+
+ * [7. Transformation and decomposition of input](#s-7)
+
+* [8. Knowledge distillation](#s-8)
+
+* [9. Transformation of colorspace](#s-9)
+
+* [10. Contrastive learning](#s-10)
+
+* [11. Non-deterministic output](#s-11)
+
+* [12. Retinex model](#s-12)
+
+* [13. Residual learning](#s-13)
+
+* [14. Frequency domain](#s-14)
+
+* [15. Joint dehazing and depth estimation](#s-15)
+
+* [16. Detection and segmentation with dehazing](#s-16)
+
+* [17. End-to-end CNN](#s-17)
+
+[Semi-supervised Dehazing Methods](#semi-supervised)
+
+* [1. Pretrain backbone and fine-tune](#ss-1)
+
+* [2. Disentangled and reconstruction](#ss-2)
+
+* [3. Two-branches training](#ss-3)
+
+<p id="supervised"></p>
+
+[Unsupervised Dehazing Methods](#unsupervised)
+
+* [1. Unsupervised domain translation](#us-1)
+
+* [2. Learning without haze-free images](#us-2)
+
+* [3. Unsupervised image decomposition](#us-3)
+
+* [4. Zero-Shot Image Dehazing](#us-4)
+
+
+[Hazy Dataset](#dataset)
+
 ## Supervised Dehazing Methods
+
+<p id="s-1"></p>
+
 ### 1. Learning of t(x)
 * Dehazenet: An end-to-end system for single image haze removal.
 \[[paper](https://ieeexplore.ieee.org/abstract/document/7539399)\]
@@ -36,6 +98,8 @@ If you have any suggestions, feel free to contact me (Email: cxf_svip@163.com). 
 \[[paper](https://ieeexplore.ieee.org/abstract/document/8450630)\]
 \[code\]
 
+<p id="s-2"></p>
+
 ### 2. Joint Learning of t(x) and A
 
 * DCPDN: Densely Connected Pyramid Dehazing Network.
@@ -58,6 +122,8 @@ If you have any suggestions, feel free to contact me (Email: cxf_svip@163.com). 
 \[[paper](https://ieeexplore.ieee.org/abstract/document/8529212)\]
 \[code\]
 
+<p id="s-3"></p>
+
 ### 3. Non-explicitly embedded ASM
 
 * AOD-Net: All-In-One Dehazing Network.
@@ -76,8 +142,9 @@ If you have any suggestions, feel free to contact me (Email: cxf_svip@163.com). 
 \[[paper](https://ieeexplore.ieee.org/abstract/document/8946591)\]
 \[code\]
 
+<p id="s-4"></p>
 
-### 4.Generative adversarial network
+### 4. Generative adversarial network
 
 * EPDN: Enhanced Pix2pix Dehazing Network.
 \[[paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Qu_Enhanced_Pix2pix_Dehazing_Network_CVPR_2019_paper.html)\]
@@ -99,19 +166,25 @@ If you have any suggestions, feel free to contact me (Email: cxf_svip@163.com). 
 \[[paper](https://openaccess.thecvf.com/content_WACV_2020/html/Sharma_Scale-aware_Conditional_Generative_Adversarial_Network_for_Image_Dehazing_WACV_2020_paper.html)\]
 \[code\]
 
-### 5.Level-aware
+<p id="s-5"></p>
+
+### 5. Level-aware
 
 * LAP-Net: Level-Aware Progressive Network for Image Dehazing
 \[[paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Li_LAP-Net_Level-Aware_Progressive_Network_for_Image_Dehazing_ICCV_2019_paper.html)\]
 \[code\]
 
-### 6.Multi-function fusion
+<p id="s-6"></p>
+
+### 6. Multi-function fusion
 
 * DMMFD: Deep Multi-Model Fusion for Single-Image Dehazing.
 \[[paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Deng_Deep_Multi-Model_Fusion_for_Single-Image_Dehazing_ICCV_2019_paper.html)\]
 \[[code](https://github.com/zijundeng/DM2F-Net)\]
 
-### 7.Transformation and decomposition of input
+<p id="s-7"></p>
+
+### 7. Transformation and decomposition of input
 
 * GFN: Gated Fusion Network for Single Image Dehazing.
 \[[paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Ren_Gated_Fusion_Network_CVPR_2018_paper.html)\]
@@ -128,6 +201,8 @@ If you have any suggestions, feel free to contact me (Email: cxf_svip@163.com). 
 * DIDH: Towards domain invariant single image dehazing.
 \[[paper](https://www.aaai.org/AAAI21Papers/AAAI-1706.ShyamP.pdf)\]
 \[[code](https://github.com/PS06/DIDH)\]
+
+<p id="s-8"></p>
 
 ### 8. Knowledge distillation
 
@@ -147,7 +222,9 @@ If you have any suggestions, feel free to contact me (Email: cxf_svip@163.com). 
 \[[paper](https://linkspringer.53yu.com/article/10.1007/s00371-021-02184-5)\]
 \[[code](None)\]
 
-### 9.Transformation of colorspace
+<p id="s-9"></p>
+
+### 9. Transformation of colorspace
 
 * AIPNet: Image-to-Image Single Image Dehazing With Atmospheric Illumination Prior.
 \[[paper](https://ieeexplore.ieee.org/abstract/document/8454467)\]
@@ -165,13 +242,17 @@ If you have any suggestions, feel free to contact me (Email: cxf_svip@163.com). 
 \[[paper](https://ieeexplore.ieee.org/abstract/document/8802288)\]
 \[code\]
 
-### 10.Contrastive learning
+<p id="s-10"></p>
+
+### 10. Contrastive learning
 
 * AECR-Net:Contrastive Learning for Compact Single Image Dehazing.
 \[[paper](https://openaccess.thecvf.com/content/CVPR2021/html/Wu_Contrastive_Learning_for_Compact_Single_Image_Dehazing_CVPR_2021_paper.html)\]
 \[[code](https://github.com/GlassyWu/AECR-Net)\]
 
-### 11.Non-deterministic output
+<p id="s-11"></p>
+
+### 11. Non-deterministic output
 
 * pWAE: Pixel-Wise Wasserstein Autoencoder for Highly Generative Dehazing.
 \[[paper](https://ieeexplore.ieee.org/abstract/document/9447190)\]
@@ -181,15 +262,17 @@ If you have any suggestions, feel free to contact me (Email: cxf_svip@163.com). 
 \[[paper](https://dl.acm.org/doi/abs/10.1145/3474085.3475432)\]
 \[[code](https://github.com/iCVTEAM/DehazeFlow)\]
 
+<p id="s-12"></p>
 
-### 12.Retinex model
+### 12. Retinex model
 
 * RDN: Deep Retinex Network for Single Image Dehazing.
 \[[paper](https://ieeexplore.ieee.org/abstract/document/9274531)\]
 \[code\]
 
+<p id="s-13"></p>
 
-### 13.Residual learning
+### 13. Residual learning
 
 * GCA-Net: Gated Context Aggregation Network for Image Dehazing and Deraining.
 \[[paper](https://ieeexplore.ieee.org/abstract/document/8658661)\]
@@ -207,7 +290,9 @@ If you have any suggestions, feel free to contact me (Email: cxf_svip@163.com). 
 \[[paper](https://ieeexplore.ieee.org/abstract/document/9025378)\]
 \[[code](https://github.com/yixindu1573/Recursive-Image-Dehazing-via-Perceptually-Optimized-Generative-Adversarial-Network-POGAN)\]
 
-### 14.Frequency domain
+<p id="s-14"></p>
+
+### 14. Frequency domain
 
 * Wavelet U-Net: Wavelet U-Net and the Chromatic Adaptation Transform for Single Image Dehazing.
 \[[paper](https://ieeexplore.ieee.org/abstract/document/8803391)\]
@@ -229,7 +314,9 @@ If you have any suggestions, feel free to contact me (Email: cxf_svip@163.com). 
 \[[paper](https://openaccess.thecvf.com/content/CVPR2021W/NTIRE/html/Fu_DW-GAN_A_Discrete_Wavelet_Transform_GAN_for_NonHomogeneous_Dehazing_CVPRW_2021_paper.html)\]
 \[[code](https://github.com/houjie8888/dehaze/tree/d06cb24e9baf35ff8bde630f7f5080d27df9f7df/DW-GAN-Dehazing-main/DW-GAN-Dehazing-main)\]
 
-### 15.Joint dehazing and depth estimation
+<p id="s-15"></p>
+
+### 15. Joint dehazing and depth estimation
 
 * SDDE: CNN-Based Simultaneous Dehazing and Depth Estimation
 \[[paper](https://ieeexplore.ieee.org/abstract/document/9197358)\]
@@ -251,7 +338,9 @@ If you have any suggestions, feel free to contact me (Email: cxf_svip@163.com). 
 \[[paper](https://ieeexplore.ieee.org/abstract/document/9672042)\]
 \[code\]
 
-### 16.Detection and segmentation with dehazing
+<p id="s-16"></p>
+
+### 16. Detection and segmentation with dehazing
 
 * LEAAL: Deep Dehazing Network With Latent Ensembling Architecture and Adversarial Learning.
 \[[paper](https://ieeexplore.ieee.org/abstract/document/9298479)\]
@@ -265,7 +354,9 @@ If you have any suggestions, feel free to contact me (Email: cxf_svip@163.com). 
 \[[paper](https://openaccess.thecvf.com/content/ACCV2020/html/Zhang_Unified_Density-Aware_Image_Dehazing_and_Object_Detection_in_Real-World_Hazy_ACCV_2020_paper.html)\]
 \[[code](https://github.com/xiqi98/UDnD)\]
 
-### 17.End-to-end CNN
+<p id="s-17"></p>
+
+### 17. End-to-end CNN
 
 * FFA-Net: Feature Fusion Attention Network for Single Image Dehazing.
 \[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/6865)\]
@@ -311,7 +402,12 @@ If you have any suggestions, feel free to contact me (Email: cxf_svip@163.com). 
 
 
 <!--################################################################-->
-## Semi-supervised
+
+<p id="semi-supervised"></p>
+
+## Semi-supervised Dehazing Methods
+
+<p id="ss-1"></p>
 
 ### 1. Pretrain backbone and fine-tune
 
@@ -323,7 +419,9 @@ If you have any suggestions, feel free to contact me (Email: cxf_svip@163.com). 
 \[[paper](https://ieeexplore.ieee.org/abstract/document/9573285)\]
 \[[code](https://github.com/jklp2/SIDSDT)\]
 
-### 2.Disentangled and reconstruction
+<p id="ss-2"></p>
+
+### 2. Disentangled and reconstruction
 
 * DCNet: Dual-Task Cycle Network for End-to-End Image Dehazing.
 \[[paper](https://ieeexplore.ieee.org/abstract/document/9428282)\]
@@ -337,7 +435,9 @@ If you have any suggestions, feel free to contact me (Email: cxf_svip@163.com). 
 \[[paper](https://openaccess.thecvf.com/content_CVPRW_2020/html/w51/Zhang_Color-Constrained_Dehazing_Model_CVPRW_2020_paper.html)\]
 \[code\]
 
-### 3.Two-branches training
+<p id="ss-3"></p>
+
+### 3. Two-branches training
 
 * DAID: Domain Adaptation for Image Dehazing.
 \[[paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Shao_Domain_Adaptation_for_Image_Dehazing_CVPR_2020_paper.html)\]
@@ -355,9 +455,14 @@ If you have any suggestions, feel free to contact me (Email: cxf_svip@163.com). 
 
 
 <!--################################################################-->
-## Unsupervised
 
-### 1.Unsupervised domain translation
+<p id="unsupervised"></p>
+
+## Unsupervised Dehazing Methods
+
+<p id="us-1"></p>
+
+### 1. Unsupervised domain translation
 
 * Cycle-Dehaze: Enhanced CycleGAN for Single Image Dehazing.
 \[[paper](https://openaccess.thecvf.com/content_cvpr_2018_workshops/w13/html/Engin_Cycle-Dehaze_Enhanced_CycleGAN_CVPR_2018_paper.html)\]
@@ -383,19 +488,25 @@ If you have any suggestions, feel free to contact me (Email: cxf_svip@163.com). 
 \[[paper](https://dl.acm.org/doi/abs/10.1145/3394171.3413876)\]
 \[code\]
 
-### 2.Learning without haze-free images
+<p id="us-2"></p>
+
+### 2. Learning without haze-free images
 
 * Deep-DCP: Unsupervised single image dehazing using dark channel prior loss.
 \[[paper](https://ieeexplore.ieee.org/abstract/document/8897130)\]
 \[[code](https://github.com/Muhammad-Dah/Unsupervised-Single-Image-Dehazing)\]
 
-### 3.Unsupervised image decomposition
+<p id="us-3"></p>
+
+### 3. Unsupervised image decomposition
 
 * Double-DIP: Unsupervised Image Decomposition via Coupled Deep-Image-Priors.
 \[[paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Gandelsman_Double-DIP_Unsupervised_Image_Decomposition_via_Coupled_Deep-Image-Priors_CVPR_2019_paper.html)\]
 \[[code](https://github.com/yossigandelsman/DoubleDIP)\]
 
-### 4.Zero-Shot Image Dehazing
+<p id="us-4"></p>
+
+### 4. Zero-Shot Image Dehazing
 * ZID: Zero-Shot Image Dehazing.
 \[[paper](https://ieeexplore.ieee.org/abstract/document/9170880)\]
 \[[code](https://github.com/liboyun/ZID)\]
@@ -406,6 +517,8 @@ If you have any suggestions, feel free to contact me (Email: cxf_svip@163.com). 
 
 
 <!--################################################################-->
+<p id="dataset"></p>
+
 ## Hazy Dataset
 
 Here are the commonly used datasets for dehazing task.
