@@ -5,14 +5,23 @@ Classification is based on our review paper, "A Comprehensive Survey and Taxonom
 If you find these codes useful, we appreciate it very much if you can cite our paper: https://dl.acm.org/doi/10.1145/3576918
 
 @article{gui2023comprehensive,
+
   title={A comprehensive survey and taxonomy on single image dehazing based on deep learning},
+  
   author={Gui, Jie and Cong, Xiaofeng and Cao, Yuan and Ren, Wenqi and Zhang, Jun and Zhang, Jing and Cao, Jiuxin and Tao, Dacheng},
+  
   journal={ACM Computing Surveys},
+  
   volume={55},
+  
   number={13s},
+  
   pages={1--37},
+  
   year={2023},
+  
   publisher={ACM New York, NY}
+  
 }
 
 We classify dehazing algorithms into supervised, semi-supervised and unsupervised. 
