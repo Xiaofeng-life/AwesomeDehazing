@@ -3,8 +3,17 @@
 This repository provides a summary of deep learning based dehazing algorithms. 
 Classification is based on our review paper, "A Comprehensive Survey and Taxonomy on Single Image Dehazing Based on Deep Learning", whic has been accepted by ACM Computing Surveys. Since this repository involves a lot of professional vocabulary, it is recommended to read our review paper before using this repository.
 If you find these codes useful, we appreciate it very much if you can cite our paper: https://dl.acm.org/doi/10.1145/3576918
- 
-Reference: Jie Gui, Xiaofeng Cong, Yuan Cao, Wenqi Ren, Jun Zhang, Jing Zhang, Jiuxin Cao, and Dacheng Tao. 2023. A Comprehensive Survey and Taxonomy on Single Image Dehazing Based on Deep Learning. ACM Comput. Surv. 00, JA, Article 00 (January 2023), 37 pages.  
+
+@article{gui2023comprehensive,
+  title={A comprehensive survey and taxonomy on single image dehazing based on deep learning},
+  author={Gui, Jie and Cong, Xiaofeng and Cao, Yuan and Ren, Wenqi and Zhang, Jun and Zhang, Jing and Cao, Jiuxin and Tao, Dacheng},
+  journal={ACM Computing Surveys},
+  volume={55},
+  number={13s},
+  pages={1--37},
+  year={2023},
+  publisher={ACM New York, NY}
+}
 
 We classify dehazing algorithms into supervised, semi-supervised and unsupervised. 
 See our paper for more details.
