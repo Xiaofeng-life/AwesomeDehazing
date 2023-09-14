@@ -6,9 +6,9 @@ If you find these codes useful, we appreciate it very much if you can cite our p
 
 ```bibtex
 @article{gui2023comprehensive,
-title={A comprehensive survey and taxonomy on single image dehazing based on deep learning},
-author={Gui, Jie and Cong, Xiaofeng and Cao, Yuan and Ren, Wenqi and Zhang, Jun and Zhang, Jing and Cao, Jiuxin and Tao, Dacheng},
-journal={ACM Computing Surveys},
+  title={A comprehensive survey and taxonomy on single image dehazing based on deep learning},
+  author={Gui, Jie and Cong, Xiaofeng and Cao, Yuan and Ren, Wenqi and Zhang, Jun and Zhang, Jing and Cao, Jiuxin and Tao, Dacheng},
+  journal={ACM Computing Surveys},
   volume={55},
   number={13s},
   pages={1--37},
