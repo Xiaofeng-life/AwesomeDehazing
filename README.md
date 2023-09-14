@@ -3,7 +3,9 @@
 This repository provides a summary of deep learning based dehazing algorithms. 
 
 Since this repository involves a lot of professional vocabulary, it is recommended to read our review paper before using this repository.
-If you find these codes useful, we appreciate it very much if you can cite our paper: https://dl.acm.org/doi/10.1145/3576918
+If you find these codes useful, we appreciate it very much if you can cite our paper: https://dl.acm.org/doi/10.1145/3576918.
+
+If you have any suggestions, feel free to contact me (Email: cxf_svip@163.com). Thanks.
 
 ```bibtex
 @article{gui2023comprehensive,
@@ -18,9 +20,7 @@ If you find these codes useful, we appreciate it very much if you can cite our p
 }
 ```
 
-We classify dehazing algorithms into supervised, semi-supervised and unsupervised. 
-See our paper for more details.
-If you have any suggestions, feel free to contact me (Email: cxf_svip@163.com). Thanks.
+We classify dehazing algorithms into supervised, semi-supervised and unsupervised, as follows.
 
 [Supervised Dehazing Methods](#supervised)
 
