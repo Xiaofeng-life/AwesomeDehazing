@@ -5,9 +5,7 @@ This repository provides a summary of deep learning based dehazing algorithms.
 Since this repository involves a lot of professional vocabulary, it is recommended to read our review paper before using this repository.
 If you find these codes useful, we appreciate it very much if you can cite our paper: https://dl.acm.org/doi/10.1145/3576918.
 
-If you have any suggestions, feel free to contact me (Email: cxf_svip@163.com). Thanks.
-
-My WeChat can be found at my homepage: [<A HREF="https://xiaofeng-life.github.io/">Homepage</A>]
+If you have any quesions, feel free to contact me. My <b> E-mail </b> and <b> WeChat </b> can be found at my homepage: [<A HREF="https://xiaofeng-life.github.io/">Homepage</A>]
 
 ```bibtex
 @article{gui2023comprehensive,
