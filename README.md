@@ -574,3 +574,8 @@ Here are the commonly used datasets for dehazing task.
 * 4kDehazing: Ultra-high-definition image dehazing via multi-guided bilateral learning.
 \[[paper](https://ieeexplore.ieee.org/abstract/document/9578433)\]
 \[[code](https://github.com/zzr-idam/4KDehazing)\]
+
+
+## Papers published after the publication of this review. 
+I will categorize these newly published papers in the future.
+* Generative Adversarial and Self-Supervised Dehazing Network
