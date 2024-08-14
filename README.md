@@ -449,6 +449,10 @@ We classify dehazing algorithms into supervised, semi-supervised and unsupervise
 \[[paper](https://openaccess.thecvf.com/content_CVPRW_2020/html/w51/Zhang_Color-Constrained_Dehazing_Model_CVPRW_2020_paper.html)\]
 \[code\]
 
+* SMOKE: Structure Representation Network and Uncertainty Feedback Learning for Dense Non-Uniform Fog Removal.
+\[[paper](https://arxiv.org/abs/2210.03061)\]
+\[[code](https://github.com/jinyeying/FogRemoval)\] 
+
 <p id="ss-3"></p>
 
 ### 3. Two-branches training
@@ -577,7 +581,9 @@ Here are the commonly used datasets for dehazing task.
 \[[paper](https://ieeexplore.ieee.org/abstract/document/9578433)\]
 \[[code](https://github.com/zzr-idam/4KDehazing)\]
 
-
+* SMOKE: Dense Non-Uniform Fog Removal.
+\[[paper](https://arxiv.org/abs/2210.03061)\]
+\[[code](https://github.com/jinyeying/FogRemoval)\] 
 
 <!--################################################################-->
 <p id="newly"></p>
