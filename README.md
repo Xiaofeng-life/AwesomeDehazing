@@ -425,6 +425,10 @@ We classify dehazing algorithms into supervised, semi-supervised and unsupervise
 
 ### 1. Pretrain backbone and fine-tune
 
+* CORUN-Colabator: Real-world Image Dehazing with Coherence-based Pseudo Labeling and Cooperative Unfolding Network.
+\[[paper](https://proceedings.neurips.cc/paper_files/paper/2024/file/b157cfde6794e93b2353b9712bbd45a5-Paper-Conference.pdf)\]
+\[[code](https://github.com/cnyvfang/CORUN-Colabator?tab=readme-ov-file#-training-for-any-image-restoration-tasks)\]
+
 * PSD: Principled synthetic-to-real dehazing guided by physical priors.
 \[[paper](https://openaccess.thecvf.com/content/CVPR2021/html/Chen_PSD_Principled_Synthetic-to-Real_Dehazing_Guided_by_Physical_Priors_CVPR_2021_paper.html)\]
 \[[code](https://github.com/zychen-ustc/PSD-Principled-Synthetic-to-Real-Dehazing-Guided-by-Physical-Priors)\]
